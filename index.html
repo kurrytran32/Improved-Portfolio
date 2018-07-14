@@ -39,13 +39,14 @@
         <div class="container">
             <div class="row">
                 <!-- Accordion Space -->
-                <div class="col-sm-8">
+                <div class="col-sm-8" id='accSection'>
                     <!-- insert accordion here -->
                     <div class="accordion" id="infoAccordion">
                         <div class="card">
                             <div class="card-header" id="aboutInfo">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <button class="btn btn-link accBtn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                        aria-controls="collapseOne">
                                         About Me
                                     </button>
                                 </h5>
@@ -53,13 +54,10 @@
 
                             <div id="collapseOne" class="collapse" aria-labelledby="aboutInfo" data-parent="#infoAccordion">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+                                    My name is Kerry Tran. I am currently a student at the UCSD Extension Coding Bootcamp. My interests include gaming, music,
+                                    food and milk teas. My goal is to create something utterly unique that will change the
+                                    industry. My motivation is the relentless curiousity of how things work. In order to
+                                    achieve my goals, I will get as much insight into the industry to find ideas.
                                 </div>
                             </div>
                         </div>
@@ -68,45 +66,64 @@
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Collapsible Group Item #2
-                                    </button>
+                                        Projects </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="portfolioInfo" data-parent="#infoAccordion">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus labore sustainable VHS.
+                                    <!-- add content for portfolio and include links for projects -->
+                                    <!-- Add Destinator, Trivia, Word Guess, -->
+                                    <div id="projCarousel" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div id="proj-port">
+
+
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#projCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#projCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                <div class="col-sm-4" id="conSection">
+                    <div class="card conStyle mb-3" style="max-width: 18rem;">
                         <div class="card-header">Contact</div>
                         <div class="card-body">
                             <!-- change into something or replace with card-header later -->
                             <!-- <h5 class="card-title">Primary card title</h5> -->
                             <p class="card-text">Email: kurrytran32@gmail.com</p>
-                            <p class="card-text">GitHub.io: <a class='contact-link' href='https://kurrytran32.github.io' >https://kurrytran32.github.io</a></p>
-                            <p class="card-text">GitHub: <a class='contact-link' href='https://github.com/kurrytran32' >https://github.com/kurrytran32</a></p>
-                            <p class="card-text">LinkedIn: <a class='contact-link' href='https://www.linkedin.com/in/kerry-dang-tran/' >https://www.linkedin.com/in/kerry-dang-tran/ </a></p>
+                            <p class="card-text">GitHub.io:
+                                <a class='contact-link' href='https://kurrytran32.github.io'>https://kurrytran32.github.io</a>
+                            </p>
+                            <p class="card-text">GitHub:
+                                <a class='contact-link' href='https://github.com/kurrytran32'>https://github.com/kurrytran32</a>
+                            </p>
+                            <p class="card-text">LinkedIn:
+                                <a class='contact-link' href='https://www.linkedin.com/in/kerry-dang-tran/'>https://www.linkedin.com/in/kerry-dang-tran/ </a>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <!-- Accordion End -->
+                
 
                 <!-- close div for portfolio contact -->
             </div>
             <!-- close div for page wrapper -->
         </div>
     </div>
+
+
+    <script src="./assets/javascript/web.js"></script>
+
 </body>
 
 </html>
