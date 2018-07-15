@@ -1,5 +1,3 @@
-
-
 function projectShow() {
     let projects = {
         projName: ['Trivia Game', 'Word Guess Game', 'The Destinator'],
