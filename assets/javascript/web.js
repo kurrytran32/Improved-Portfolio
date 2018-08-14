@@ -1,7 +1,7 @@
 function projectShow() {
     let projects = {
         projName: ['Trivia Game', 'Word Guess Game', 'The Destinator', 'Friend Finder'],
-        projLinks: ['https://kurrytran32.github.io/TriviaGame/', 'https://kurrytran32.github.io/Word-Guess-Game/', 'https://loftusjl.github.io/Project1/', "https://quiet-basin-66531.herokuapp.com/"],
+        projLinks: ['https://kurrytran32.github.io/TriviaGame/', 'https://kurrytran32.github.io/Word-Guess-Game/', 'https://loftusjl.github.io/TheDestinator/', "https://quiet-basin-66531.herokuapp.com/"],
         projImages: ['./assets/images/TriviaGame.png', './assets/images/Word-Guess-Game.png', './assets/images/Destinator.png','./assets/images/friendfinder.png']
     }
     let proj = projects;
