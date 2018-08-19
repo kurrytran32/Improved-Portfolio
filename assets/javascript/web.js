@@ -1,8 +1,8 @@
 function projectShow() {
     let projects = {
-        projName: ['Trivia Game', 'Word Guess Game', 'The Destinator', 'Friend Finder'],
-        projLinks: ['https://kurrytran32.github.io/TriviaGame/', 'https://kurrytran32.github.io/Word-Guess-Game/', 'https://loftusjl.github.io/TheDestinator/', "https://quiet-basin-66531.herokuapp.com/"],
-        projImages: ['./assets/images/TriviaGame.png', './assets/images/Word-Guess-Game.png', './assets/images/Destinator.png','./assets/images/friendfinder.png']
+        projName: ['Trivia Game', 'Word Guess Game', 'The Destinator', 'Friend Finder', 'Burger Express'],
+        projLinks: ['https://kurrytran32.github.io/TriviaGame/', 'https://kurrytran32.github.io/Word-Guess-Game/', 'https://loftusjl.github.io/TheDestinator/', "https://quiet-basin-66531.herokuapp.com/","https://calm-reef-63555.herokuapp.com/"],
+        projImages: ['./assets/images/TriviaGame.png', './assets/images/Word-Guess-Game.png', './assets/images/Destinator.png','./assets/images/friendfinder.png', './assets/images/burgerexpress.png']
     }
     let proj = projects;
     for (i = 0; i < proj.projName.length; i++) {
